@@ -1,0 +1,25 @@
+
+.navbar{
+    width: 100%;
+    background: $bg-clr;
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 3rem;
+    }
+    &-item{
+        font-size: 2rem;
+        font-family: inherit;
+        color: black;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
